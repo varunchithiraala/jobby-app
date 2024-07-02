@@ -1,0 +1,131 @@
+.nav-header {
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-content {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-content {
+    padding: 20px 0;
+  }
+}
+
+.nav-bar-mobile-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-mobile-container {
+    display: none;
+  }
+}
+
+.website-logo {
+  width: 80px;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 125px;
+    margin-top: 0;
+  }
+}
+
+.nav-bar-mobile-icons-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item-mobile-link {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 26px;
+  margin-right: 25px;
+}
+
+.nav-mobile-button {
+  color: #ffffff;
+  background: transparent;
+  font-family: 'Roboto';
+  font-size: 26px;
+  border: none;
+  padding: 0;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-button {
+    display: none;
+  }
+}
+
+.nav-bar-large-container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-large-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.nav-menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.nav-menu-item {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 10px 15px 10px;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.large-device-button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.logout-desktop-button {
+  color: #ffffff;
+  background-color: #4f46e5;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+}

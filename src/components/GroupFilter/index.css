@@ -1,0 +1,158 @@
+.group-filter-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .group-filter-container {
+    width: 30%;
+    min-width: 240px;
+    max-width: 300px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+.search-input-container {
+  background-color: transparent;
+  border: 1px solid #7e858e;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    display: none;
+  }
+}
+
+.search-input {
+  color: #ffffff;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+  flex-grow: 1;
+}
+
+.search-button {
+  background-color: #202020;
+  border: none;
+  padding: 10px 25px;
+  margin: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  color: #ffffff;
+  height: 16px;
+  width: 16px;
+}
+
+.horizontal-line {
+  background-color: #475569;
+}
+
+.employment-type-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.employment-type-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .employment-type-heading {
+    font-size: 16px;
+  }
+}
+
+.employee-type-list-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.employee-item {
+  padding: 0;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .employee-item {
+    padding-left: 4px;
+  }
+}
+
+.check-input {
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.check-label {
+  color: #f8fafc;
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .check-label {
+    font-size: 16px;
+    margin-left: 8px;
+  }
+}
+
+.salary-range-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.salary-range-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .salary-range-heading {
+    font-size: 16px;
+  }
+}
+
+.salary-range-list-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.salary-item {
+  padding: 0;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .salary-item {
+    padding-left: 4px;
+  }
+}
